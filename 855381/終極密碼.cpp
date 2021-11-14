@@ -22,7 +22,7 @@ int main(){
     }else  if (num > a and num <= n){
       a = num ;
     }else{
-      cout << "不再範圍內清重新輸入" << "\n";
+      cout << "不在範圍內請重新輸入" << "\n";
     }
   }while(num != n);
   cout << "你猜到了";
