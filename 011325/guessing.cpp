@@ -14,7 +14,7 @@ void One() { //使用者猜測
         cin >> num;
         times++; //猜次數加一
         
-        if ((num < min) || (num > max)) {//錯誤範圍
+        if ((num <= min) || (num >= max)) {//錯誤範圍
             cout << "你還好嗎?\n這個不是範圍裡的數字\n";
             times--;
         } else if (x > num) { //猜小
