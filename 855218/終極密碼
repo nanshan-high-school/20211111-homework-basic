@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+  int numWhichYouInput;
+  
+  cin >> numWhichYouInput;
+  while(numWhichYouInput != 78 || numWhichYouInput >= 0 || numWhichYouInput <= 100 ){
+    if(numWhichYouInput<78 || numWhichYouInput>0){
+      while(numWhichYouInput != 78){
+            cout << "please guess another num between " << numWhichYouInput << "~78"; 
+          break;
+          }
+      } else{
+        while(numWhichYouInput != 78){
+        cout << "please guess another num between 78~" << numWhichYouInput ;
+        break;
+        }
+      }
+  }
+}
